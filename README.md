@@ -11,9 +11,13 @@ This is a Pomodoro Technique timer that can help you manage your time by impleme
 - Customizable work, short rest and long rest durations
 ## Usage
 1. Install the dependencies:
-pip install -r requirements.txt
+
+$ pip install -r requirements.txt
+
 2. Run the timer:
-python timer.py
+
+$python timer.py
+
 3. When the work timer is on, do your work. When the short rest timer is on, take a short break. When the long rest timer is on every 4 cycles, take a longer rest.
 4. The timer will automatically switch between states, and prompt you when it's time to work/rest.
 ## Customization
