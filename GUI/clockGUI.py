@@ -39,4 +39,27 @@ def long_break_timer():
         long_break_timer_label['text'] = time_format
         window.update()
         time.sleep(1)
-    start_work()        # 回到工作  
+    start_work()        # 回到工作  # 按钮事件  
+def start_work(): 
+    global cycles
+    cycles += 1
+    work_timer_label['text'] = '25:00' 
+    short_break_timer_label['text'] = ''
+    long_break_timer_label['text'] = ''
+    if cycles % 8 == 0:     # 每8次循环有一次长休息
+        long_break_timer()
+    else:
+        work_timer()   # 启动工作计时器
+
+def start_short_break(): 
+    short_break_timer_label['text'] = '05:00' 
+    work_timer_label['text'] = '' 
+    long_break_timer_label['text'] = ''
+    short_break_timer()  
+
+def start_long_break():
+    long_break_timer_label['text'] = '15:00'
+    work_timer_label['text'] = ''
+    short_break_timer_label['text'] = '' 
+    long_break_timer()   
+
