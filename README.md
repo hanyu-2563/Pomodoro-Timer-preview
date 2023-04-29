@@ -1,5 +1,5 @@
 # Pomodoro-Timer-preview
-A Pomodoro Technique timer that implements 25 minutes work/5 minutes short rest cycles, with a long 25 minutes rest every 4 cycles.
+A Pomodoro Technique timer that implements 25 minutes work/5 minutes short rest cycles, with a long 25 minutes rest every 4 cycles.（undone）
 
 # Pomodoro Timer
 This is a Pomodoro Technique timer that can help you manage your time by implementing 25 minutes work periods and 5 minutes short rest periods, with a longer 25 minutes rest every 4 cycles.
