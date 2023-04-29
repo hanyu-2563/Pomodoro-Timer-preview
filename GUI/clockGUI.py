@@ -20,3 +20,13 @@ def work_timer():
         window.update()      # 更新GUI
         time.sleep(1)
     start_short_break()      # 短休息
+    
+def short_break_timer():
+    short_break_sec = short_break_mins * 60 
+    for sec in range(short_break_sec, 0, -1):
+        mins, secs = divmod(sec, 60)    
+        time_format = '{:02d}:{:02d}'.format(mins, secs)
+        short_break_timer_label['text'] = time_format
+        window.update()
+        time.sleep(1)
+    start_work()         # 回到工作 
