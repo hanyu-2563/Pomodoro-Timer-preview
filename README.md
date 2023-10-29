@@ -1,5 +1,5 @@
 # Pomodoro-Timer-preview
-A Pomodoro Technique timer that implements 25 minutes work/5 minutes short rest cycles, with a long 25 minutes rest every 4 cycles.（test）
+A Pomodoro Technique timer that implements 25 minutes work/5 minutes short rest cycles, with a long 25 minutes rest every 4 cycles.（F test）
 
 # Pomodoro Timer
 Pomodoro Timer is a productivity tool that implements the Pomodoro Technique of timed working periods separated by breaks. This readme covers both the command line interface (CLI) version and graphical user interface (GUI) version of the Pomodoro Timer.
